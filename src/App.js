@@ -8,7 +8,7 @@ import OurWork from "./components/OurWork/OurWork";
 import Teams from "./components/Teams/Teams";
 import ContactUs from "./components/ContactUs/ContactUs";
 import { Toaster } from "react-hot-toast"
-import Footer from "./Footer/Footer";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   const [theme, setTheme] = useState(
