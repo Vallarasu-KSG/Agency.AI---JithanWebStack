@@ -1,0 +1,147 @@
+.contact-us {
+  width: 100%;
+  padding: 120px 20px;
+}
+
+/* Form */
+
+.contact-form {
+  max-width: 900px;
+  margin: 70px auto 0;
+}
+
+/* Top Row */
+
+.contact-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* Labels */
+
+.input-group label,
+.textarea-group label {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+/* Input Box */
+
+.input-box {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  border: 1px solid var(--border-color);
+  background: var(--card-bg);
+
+  border-radius: 12px;
+  padding: 0 16px;
+  height: 58px;
+}
+
+.input-box img {
+  width: 18px;
+  height: 18px;
+  opacity: 0.7;
+}
+
+.input-box input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+/* Textarea */
+
+.textarea-group {
+  margin-top: 25px;
+}
+
+.textarea-group textarea {
+  width: 100%;
+  border: 1px solid var(--border-color);
+  background: var(--card-bg);
+
+  border-radius: 12px;
+  padding: 18px;
+  resize: none;
+
+  outline: none;
+
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+/* Button */
+
+.submit-btn {
+  margin-top: 30px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  border: none;
+  border-radius: 40px;
+
+  background: linear-gradient(
+    90deg,
+    #4f46e5,
+    #5b5ef7
+  );
+
+  color: white;
+  padding: 15px 40px;
+
+  font-size: 1rem;
+  font-weight: 500;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-btn img {
+  width: 18px;
+}
+
+.submit-btn:hover {
+  transform: translateY(-3px);
+}
+
+.submit-btn:active {
+  transform: scale(0.98);
+}
+
+/* Focus */
+
+.input-box:focus-within,
+.textarea-group textarea:focus {
+  border-color: #5b5ef7;
+  box-shadow: 0 0 0 3px rgba(91, 94, 247, 0.12);
+}
+
+/* Tablet */
+
+@media (max-width: 768px) {
+  .contact-us {
+    padding: 80px 20px;
+  }
+
+  .contact-row {
+    grid-template-columns: 1fr;
+  }
+
+  .submit-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

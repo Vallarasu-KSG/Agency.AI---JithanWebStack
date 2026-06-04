@@ -1,0 +1,173 @@
+.footer {
+  width: 100%;
+  background: var(--card-bg);
+  padding: 70px 20px 30px;
+  margin-top: 100px;
+}
+
+.footer-top {
+  max-width: 1150px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+/* Left */
+
+.footer-left {
+  flex: 1;
+}
+
+.footer-desc {
+  margin-top: 20px;
+  max-width: 500px;
+  color: #6b7280;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin-top: 25px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: var(--text-color);
+  transition: 0.3s;
+}
+
+.footer-links a:hover {
+  color: #5b5ef7;
+}
+
+/* Right */
+
+.footer-right {
+  flex: 1;
+}
+
+.footer-right h3 {
+  color: var(--text-color);
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.footer-right p {
+  color: #6b7280;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
+
+.newsletter-box {
+  display: flex;
+  gap: 10px;
+}
+
+.newsletter-box input {
+  flex: 1;
+  height: 52px;
+
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+
+  padding: 0 18px;
+
+  background: var(--bg-color);
+  color: var(--text-color);
+
+  outline: none;
+}
+
+.newsletter-box button {
+  border: none;
+  background: linear-gradient(
+    90deg,
+    #4f46e5,
+    #5b5ef7
+  );
+
+  color: white;
+  padding: 0 28px;
+  border-radius: 8px;
+
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Divider */
+
+.footer-divider {
+  max-width: 1150px;
+  margin: 25px auto;
+  border: none;
+  border-top: 1px solid var(--border-color);
+}
+
+/* Bottom */
+
+.footer-bottom {
+  max-width: 1150px;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-bottom p {
+  color: #6b7280;
+}
+
+.social-icons {
+  display: flex;
+  gap: 18px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.social-icons img:hover {
+  opacity: 1;
+  transform: translateY(-3px);
+}
+
+/* Tablet */
+
+@media (max-width: 900px) {
+  .footer-top {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 60px 20px 25px;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .newsletter-box button {
+    height: 50px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+}
