@@ -17,7 +17,7 @@ const Navbar = ({ theme, setTheme }) => {
 
       <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
         <li>
-          <a href="#">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
           <a href="#services">Services</a>
