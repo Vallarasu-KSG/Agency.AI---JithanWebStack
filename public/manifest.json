@@ -1,19 +1,19 @@
 {
-  "short_name": "Quiz App",
-  "name": "Quiz Web App",
+  "short_name": "Agency AI",
+  "name": "Agency AI JithanWebStack",
   "icons": [
     {
-      "src": "./QA.png",
+      "src": "./logo11.avif",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "./QA.png",
+      "src": "./logo11.avif",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "./QA.png",
+      "src": "./logo11.avif",
       "type": "image/png",
       "sizes": "512x512"
     }
