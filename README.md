@@ -89,7 +89,7 @@ The website is fully responsive and works seamlessly across:
 * Tablet
 * Mobile Devices
 
-![Agency AI Homepage](./Home_Page_Screenshot.jpeg)
+![Agency AI Homepage](./Home_Page_Screenshort1.jpeg)
 
 A modern and responsive AI agency website built using React.js.
 
